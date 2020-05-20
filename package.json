@@ -12,14 +12,15 @@
     "react-redux": "^7.2.0",
     "react-scripts": "3.4.1",
     "react-test-renderer": "^16.13.1",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "require-context.macro": "^1.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
+    "storybook": "build-storybook -c .storybook",
     "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
@@ -42,6 +43,7 @@
     "@storybook/addon-links": "^5.3.18",
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.2",
-    "@storybook/react": "^5.3.18"
+    "@storybook/react": "^5.3.18",
+    "chromatic": "^4.0.3"
   }
 }
